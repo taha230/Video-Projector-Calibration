@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CanonSDK.SDKHandler" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="CanonSDK.SDKHandler.CameraAddedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CameraClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CanonSDK.SDKHandler.ProgressHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CameraClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CanonSDK.SDKHandler.ImageUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CameraClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CanonSDK.SDKHandler.FloatUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CameraClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ANqEsgACgGcBBUIgQSpEUlwQADIASAAAABIEggRIAyw=</HashCode>
+      <FileName>CameraClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CanonSDK.Camera">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>CameraClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.CameraValues">
+    <Position X="7" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AJEAAAAAEACAAAAAAEAAAAAAAQAEggAACAABCAAIAAQ=</HashCode>
+      <FileName>CameraClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.CameraFileEntry">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAQCAQABAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CameraClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.MainForm">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="SessionLabel" Hidden="true" />
+      <Field Name="STCameraButton" Hidden="true" />
+      <Field Name="STComputerButton" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>75KgKIeSHbAUvTR5QwuIUs3SsABCNd8PkEDGikZDC+E=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.Program">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EDSDKLib.EDSDK">
+    <Position X="0.5" Y="3" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EDSDKLib.EDSDK.EdsFileCreateDisposition" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="EDSDKLib.EDSDK.EdsCameraAddedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EDSDKLib.EDSDK.EdsETTL2Mode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EDSDKLib.EDSDK.EdsStroboMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EDSDKLib.EDSDK.ImageQuality" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsTime" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsSeekOrigin" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsPoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsImageSource" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EDSDKLib.EDSDK.EdsSaveTo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="EDSDKLib.EDSDK.EdsPropertyEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EDSDKLib.EDSDK.EdsAccess" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsFocusPoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsEvfAFMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsRect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EDSDKLib.EDSDK.EdsFocusInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EDSDKLib.EDSDK.EdsDirectoryItemInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EDSDKLib.EDSDK.EdsCapacity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsFileAttribute" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsRational" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Delegate Name="EDSDKLib.EDSDK.EdsProgressCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EDSDKLib.EDSDK.EdsStorageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsSize" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Delegate Name="EDSDKLib.EDSDK.EdsObjectEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EDSDKLib.EDSDK.EdsTargetImageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsPropertyDesc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.ImageQualityForLegacy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsPictureStyleDesc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Delegate Name="EDSDKLib.EDSDK.EdsStateEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Struct Name="EDSDKLib.EDSDK.EdsVolumeInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsShutterButton" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EDSDKLib.EDSDK.EdsProgressOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsDeviceInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EDSDKLib.EDSDK.EdsImageInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsEvfAf" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="EDSDKLib.EDSDK.EdsSaveImageSetting" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="EDSDKLib.EDSDK.EdsTransferOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EDSDKLib.EDSDK.EdsDataType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EDSDK.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/5/vX/9TuW9//z7j2/vXP/7b//9u/57uv3/v92vu/X8=</HashCode>
+      <FileName>EDSDK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.Properties.Resources">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonSDK.Properties.Settings">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
